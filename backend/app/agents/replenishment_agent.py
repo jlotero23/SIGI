@@ -225,7 +225,7 @@ def _format_demand_response(forecasts: list[dict]) -> str:
         lines.append(f"{i}. *{prod}* — {val:.0f} uds. en el periodo pronosticado")
     lines.append("")
     lines.append(
-        "Los valores corresponden a la suma del pronóstico diario generado por el Agente 1, sin ajustes adicionales."
+        "Los valores corresponden a la suma del pronóstico diario generado por el Agente 1"
     )
     return "\n".join(lines)
 

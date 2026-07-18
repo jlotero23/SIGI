@@ -19,8 +19,8 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="Sistema IA - Pronóstico y Reabastecimiento",
-    description="PoC académica con Agente 1 (pronóstico) y Agente 2 (reabastecimiento)",
+    title="SIGI Retail — Inventarios Inteligentes",
+    description="Agente 1 (pronóstico) y Agente 2 (reabastecimiento)",
     version="1.0.0",
     lifespan=lifespan,
 )

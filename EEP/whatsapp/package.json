@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-bridge-reabastecimiento",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Bridge gratuito WhatsApp Web para el Agente 2",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}

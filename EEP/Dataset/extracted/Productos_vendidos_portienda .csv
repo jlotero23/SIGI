@@ -1,0 +1,501 @@
+fecha,tienda,categoria de producto,vendedor,producto,cantidad,precio,total
+01/02/2026,Tienda B,Juguetes,Lucía,Puzzle 1000 piezas,6,625.01,3750.06
+01/02/2026,Tienda E,Hogar,María,Cafetera Delonghi,1,84.42,84.42
+01/03/2026,Tienda C,Ropa,María,Pantalón Levi's,5,560.97,2804.85
+01/04/2026,Tienda D,Electrónica,Ana,Smartphone Samsung,10,1197.81,11978.1
+01/05/2026,Tienda E,Hogar,María,Ventilador Imaco,2,349.98,699.96
+01/06/2026,Tienda D,Ropa,José,Polo Adidas,7,353.77,2476.39
+01/07/2026,Tienda E,Ropa,José,Casaca Puma,3,821.79,2465.37
+01/08/2026,Tienda A,Electrónica,José,Smartwatch Apple,9,575.49,5179.41
+01/09/2026,Tienda E,Deportes,Ana,Guantes Everlast,3,1180.15,3540.45
+01/10/2026,Tienda B,Juguetes,Luis,Lego Star Wars,8,948.14,7585.12
+01/11/2026,Tienda E,Hogar,Lucía,Cafetera Delonghi,7,1439.39,10075.73
+01/12/2026,Tienda E,Juguetes,Luis,Drone para niños,6,242.24,1453.44
+1/13/2026,Tienda E,Belleza,Luis,Crema Nivea,2,1046.62,2093.24
+1/14/2026,Tienda B,Deportes,Luis,Balón Adidas,7,35.19,246.33
+1/15/2026,Tienda B,Hogar,Lucía,Plancha Philips,1,828.19,828.19
+1/16/2026,Tienda D,Belleza,Luis,Perfume Dior,8,562.22,4497.76
+1/17/2026,Tienda C,Electrónica,María,Auriculares Sony,6,971.14,5826.84
+1/18/2026,Tienda A,Hogar,Luis,Plancha Philips,7,921.18,6448.26
+1/19/2026,Tienda D,Deportes,María,Guantes Everlast,3,468.57,1405.71
+1/20/2026,Tienda D,Hogar,Luis,Licuadora Oster,10,1132.23,11322.3
+1/21/2026,Tienda C,Juguetes,Rosa,Drone para niños,10,124.49,1244.9
+1/22/2026,Tienda D,Ropa,Lucía,Polo Adidas,3,791.73,2375.19
+1/23/2026,Tienda E,Juguetes,Lucía,Auto Hot Wheels,7,1334.38,9340.66
+1/24/2026,Tienda C,Ropa,Ana,Pantalón Levi's,2,738.55,1477.1
+1/25/2026,Tienda E,Belleza,Pedro,Secadora Philips,3,51.06,153.18
+1/26/2026,Tienda D,Deportes,Ana,Cuerda para saltar,9,1055.75,9501.75
+1/27/2026,Tienda D,Ropa,Pedro,Casaca Puma,10,137.61,1376.1
+1/28/2026,Tienda C,Ropa,Rosa,Casaca Puma,4,610.54,2442.16
+1/29/2026,Tienda A,Belleza,Carlos,Maquillaje Maybelline,7,624.38,4370.66
+1/30/2026,Tienda C,Ropa,Ana,Camisa Lacoste,5,529.52,2647.6
+1/31/2026,Tienda E,Hogar,Carlos,Ventilador Imaco,9,1452.03,13068.27
+02/01/2026,Tienda D,Juguetes,José,Auto Hot Wheels,3,691.78,2075.34
+02/02/2026,Tienda D,Juguetes,José,Drone para niños,4,1044.31,4177.24
+02/03/2026,Tienda E,Deportes,José,Cuerda para saltar,10,916.87,9168.7
+02/04/2026,Tienda A,Juguetes,Pedro,Auto Hot Wheels,7,281.01,1967.07
+02/05/2026,Tienda E,Ropa,Pedro,Zapatillas Nike,9,1322.93,11906.37
+02/06/2026,Tienda E,Belleza,José,Crema Nivea,4,1441.24,5764.96
+02/07/2026,Tienda B,Belleza,Pedro,Perfume Dior,4,74.85,299.4
+02/08/2026,Tienda D,Deportes,Pedro,Bicicleta Trek,10,1242.53,12425.3
+02/09/2026,Tienda B,Ropa,José,Pantalón Levi's,2,63.27,126.54
+02/10/2026,Tienda B,Electrónica,Ana,Smartwatch Apple,6,1115.85,6695.1
+02/11/2026,Tienda D,Belleza,Lucía,Perfume Dior,1,160.01,160.01
+02/12/2026,Tienda E,Ropa,Rosa,Polo Adidas,8,1094.06,8752.48
+2/13/2026,Tienda C,Juguetes,Carlos,Puzzle 1000 piezas,3,1159.15,3477.45
+2/14/2026,Tienda C,Hogar,Ana,Microondas LG,10,1172.85,11728.5
+2/15/2026,Tienda A,Belleza,Rosa,Crema Nivea,6,1265.68,7594.08
+2/16/2026,Tienda B,Ropa,María,Pantalón Levi's,2,1012.88,2025.76
+2/17/2026,Tienda C,Ropa,Carlos,Pantalón Levi's,7,397.61,2783.27
+2/18/2026,Tienda B,Ropa,Carlos,Pantalón Levi's,2,200.42,400.84
+2/19/2026,Tienda C,Juguetes,María,Puzzle 1000 piezas,4,1152.99,4611.96
+2/20/2026,Tienda D,Electrónica,José,Tablet Lenovo,2,308.88,617.76
+2/21/2026,Tienda E,Hogar,Carlos,Microondas LG,7,1391.47,9740.29
+2/22/2026,Tienda E,Belleza,Ana,Crema Nivea,3,1372.26,4116.78
+2/23/2026,Tienda A,Ropa,Rosa,Casaca Puma,5,967.49,4837.45
+2/24/2026,Tienda D,Belleza,Rosa,Maquillaje Maybelline,2,384.9,769.8
+2/25/2026,Tienda D,Electrónica,Rosa,Smartphone Samsung,8,280.04,2240.32
+2/26/2026,Tienda E,Deportes,Rosa,Guantes Everlast,1,1426.09,1426.09
+2/27/2026,Tienda E,Electrónica,Rosa,Smartphone Samsung,5,68.88,344.4
+2/28/2026,Tienda D,Hogar,Lucía,Cafetera Delonghi,5,441.13,2205.65
+03/01/2026,Tienda E,Electrónica,Rosa,Laptop HP,6,1077.09,6462.54
+03/02/2026,Tienda E,Electrónica,Lucía,Laptop HP,4,1066.71,4266.84
+03/03/2026,Tienda D,Deportes,Pedro,Raqueta Wilson,8,817.81,6542.48
+03/04/2026,Tienda D,Juguetes,Ana,Drone para niños,3,1251.23,3753.69
+03/05/2026,Tienda E,Deportes,Pedro,Bicicleta Trek,4,1106.17,4424.68
+03/06/2026,Tienda B,Belleza,Luis,Perfume Dior,4,312.31,1249.24
+03/07/2026,Tienda B,Belleza,Pedro,Perfume Dior,8,553.84,4430.72
+03/08/2026,Tienda B,Hogar,María,Ventilador Imaco,4,385.36,1541.44
+03/09/2026,Tienda C,Deportes,José,Balón Adidas,10,854.28,8542.8
+03/10/2026,Tienda B,Hogar,Ana,Microondas LG,9,189.32,1703.88
+03/11/2026,Tienda D,Belleza,María,Perfume Dior,2,485.97,971.94
+03/12/2026,Tienda A,Belleza,Pedro,Crema Nivea,4,948.87,3795.48
+3/13/2026,Tienda C,Juguetes,José,Drone para niños,9,1223.91,11015.19
+3/14/2026,Tienda A,Ropa,Pedro,Zapatillas Nike,4,258.84,1035.36
+3/15/2026,Tienda E,Belleza,Luis,Plancha de cabello Remington,8,429.77,3438.16
+3/16/2026,Tienda A,Ropa,Rosa,Casaca Puma,2,1210.24,2420.48
+3/17/2026,Tienda B,Ropa,Carlos,Casaca Puma,2,239.95,479.9
+3/18/2026,Tienda B,Electrónica,Lucía,Laptop HP,2,186.58,373.16
+3/19/2026,Tienda C,Deportes,José,Guantes Everlast,8,298.54,2388.32
+3/20/2026,Tienda E,Electrónica,José,Tablet Lenovo,10,784.21,7842.1
+3/21/2026,Tienda C,Ropa,María,Casaca Puma,10,1097.97,10979.7
+3/22/2026,Tienda D,Belleza,María,Secadora Philips,1,1293.24,1293.24
+3/23/2026,Tienda B,Electrónica,Lucía,Smartwatch Apple,2,1326.18,2652.36
+3/24/2026,Tienda E,Electrónica,Pedro,Auriculares Sony,7,1470.51,10293.57
+3/25/2026,Tienda D,Ropa,Carlos,Polo Adidas,7,847.93,5935.51
+3/26/2026,Tienda B,Juguetes,Lucía,Lego Star Wars,6,1002.34,6014.04
+3/27/2026,Tienda D,Ropa,José,Camisa Lacoste,9,92.72,834.48
+3/28/2026,Tienda E,Hogar,Carlos,Ventilador Imaco,1,1233.14,1233.14
+3/29/2026,Tienda E,Hogar,Luis,Licuadora Oster,6,711.2,4267.2
+3/30/2026,Tienda A,Hogar,Lucía,Microondas LG,3,1497.11,4491.33
+3/31/2026,Tienda A,Deportes,María,Guantes Everlast,7,733.48,5134.36
+04/01/2026,Tienda D,Hogar,Rosa,Cafetera Delonghi,5,526.96,2634.8
+04/02/2026,Tienda D,Belleza,Carlos,Perfume Dior,9,1131.65,10184.85
+04/03/2026,Tienda C,Electrónica,Carlos,Smartphone Samsung,6,328.21,1969.26
+04/04/2026,Tienda A,Ropa,Carlos,Zapatillas Nike,2,373.38,746.76
+04/05/2026,Tienda A,Juguetes,María,Drone para niños,1,380.68,380.68
+04/06/2026,Tienda C,Hogar,Ana,Plancha Philips,2,1461.64,2923.28
+04/07/2026,Tienda A,Deportes,Rosa,Raqueta Wilson,1,1304.11,1304.11
+04/08/2026,Tienda A,Electrónica,Carlos,Smartphone Samsung,4,242.72,970.88
+04/09/2026,Tienda A,Juguetes,Pedro,Puzzle 1000 piezas,8,1099.96,8799.68
+04/10/2026,Tienda B,Juguetes,Ana,Lego Star Wars,4,1253.25,5013
+04/11/2026,Tienda C,Deportes,Ana,Guantes Everlast,3,1019.2,3057.6
+04/12/2026,Tienda C,Deportes,Lucía,Bicicleta Trek,5,626.76,3133.8
+4/13/2026,Tienda D,Ropa,Lucía,Casaca Puma,1,121.12,121.12
+4/14/2026,Tienda B,Belleza,Pedro,Maquillaje Maybelline,4,1385.47,5541.88
+4/15/2026,Tienda D,Electrónica,Pedro,Tablet Lenovo,10,437.48,4374.8
+4/16/2026,Tienda B,Electrónica,José,Smartwatch Apple,7,55.81,390.67
+4/17/2026,Tienda E,Electrónica,María,Smartwatch Apple,8,518.47,4147.76
+4/18/2026,Tienda C,Ropa,Carlos,Zapatillas Nike,5,620.61,3103.05
+4/19/2026,Tienda C,Belleza,Ana,Perfume Dior,10,188.31,1883.1
+4/20/2026,Tienda E,Deportes,Ana,Balón Adidas,4,1246.4,4985.6
+4/21/2026,Tienda B,Deportes,Rosa,Bicicleta Trek,8,447.35,3578.8
+4/22/2026,Tienda B,Ropa,María,Polo Adidas,8,521.35,4170.8
+4/23/2026,Tienda E,Juguetes,Carlos,Puzzle 1000 piezas,3,522.1,1566.3
+4/24/2026,Tienda C,Deportes,Pedro,Bicicleta Trek,2,893.07,1786.14
+4/25/2026,Tienda B,Juguetes,María,Lego Star Wars,3,950.52,2851.56
+4/26/2026,Tienda B,Ropa,Pedro,Polo Adidas,3,1128.87,3386.61
+4/27/2026,Tienda B,Deportes,María,Balón Adidas,1,1370.4,1370.4
+4/28/2026,Tienda B,Belleza,Lucía,Perfume Dior,5,1299.03,6495.15
+4/29/2026,Tienda D,Juguetes,Pedro,Drone para niños,1,221.11,221.11
+4/30/2026,Tienda A,Juguetes,José,Puzzle 1000 piezas,10,1124,11240
+05/01/2026,Tienda E,Belleza,José,Maquillaje Maybelline,1,852.51,852.51
+05/02/2026,Tienda B,Deportes,Ana,Bicicleta Trek,10,1053.3,10533
+05/03/2026,Tienda D,Ropa,Carlos,Polo Adidas,5,1146.79,5733.95
+05/04/2026,Tienda E,Deportes,José,Bicicleta Trek,9,699.9,6299.1
+05/05/2026,Tienda B,Ropa,Carlos,Camisa Lacoste,2,244.6,489.2
+05/06/2026,Tienda C,Ropa,Pedro,Camisa Lacoste,5,413.19,2065.95
+05/07/2026,Tienda D,Belleza,Pedro,Plancha de cabello Remington,3,242.75,728.25
+05/08/2026,Tienda A,Electrónica,José,Laptop HP,6,415.84,2495.04
+05/09/2026,Tienda A,Hogar,Ana,Plancha Philips,6,272.99,1637.94
+05/10/2026,Tienda B,Electrónica,Ana,Smartwatch Apple,1,333,333
+05/11/2026,Tienda B,Juguetes,Ana,Muñeca Barbie,1,550.97,550.97
+05/12/2026,Tienda A,Hogar,Carlos,Cafetera Delonghi,8,1102.35,8818.8
+5/13/2026,Tienda A,Juguetes,Pedro,Puzzle 1000 piezas,6,893.93,5363.58
+5/14/2026,Tienda E,Deportes,María,Raqueta Wilson,3,1419.71,4259.13
+5/15/2026,Tienda A,Belleza,Carlos,Crema Nivea,7,799.18,5594.26
+5/16/2026,Tienda B,Juguetes,Carlos,Muñeca Barbie,5,1037.23,5186.15
+5/17/2026,Tienda D,Deportes,Pedro,Bicicleta Trek,5,410.73,2053.65
+5/18/2026,Tienda E,Electrónica,Pedro,Auriculares Sony,5,1103.42,5517.1
+5/19/2026,Tienda B,Deportes,Carlos,Balón Adidas,10,901.73,9017.3
+5/20/2026,Tienda E,Hogar,Lucía,Ventilador Imaco,5,1341.51,6707.55
+5/21/2026,Tienda B,Electrónica,Carlos,Tablet Lenovo,4,144.79,579.16
+5/22/2026,Tienda E,Deportes,Lucía,Bicicleta Trek,3,638.66,1915.98
+5/23/2026,Tienda E,Deportes,María,Raqueta Wilson,10,647.67,6476.7
+5/24/2026,Tienda C,Belleza,Ana,Plancha de cabello Remington,5,938.49,4692.45
+5/25/2026,Tienda C,Ropa,María,Casaca Puma,3,33.2,99.6
+5/26/2026,Tienda B,Belleza,Carlos,Secadora Philips,8,1453.51,11628.08
+5/27/2026,Tienda D,Electrónica,Pedro,Smartwatch Apple,6,109.18,655.08
+5/28/2026,Tienda B,Electrónica,Pedro,Laptop HP,3,1181.17,3543.51
+5/29/2026,Tienda A,Juguetes,Lucía,Puzzle 1000 piezas,1,540.91,540.91
+5/30/2026,Tienda B,Electrónica,Lucía,Smartphone Samsung,9,819.05,7371.45
+5/31/2026,Tienda D,Belleza,Lucía,Maquillaje Maybelline,4,48.45,193.8
+06/01/2026,Tienda A,Hogar,Luis,Microondas LG,9,660.8,5947.2
+06/02/2026,Tienda B,Electrónica,María,Smartwatch Apple,1,528.01,528.01
+06/03/2026,Tienda B,Hogar,Ana,Microondas LG,4,753.11,3012.44
+06/04/2026,Tienda E,Hogar,Rosa,Plancha Philips,5,1169.35,5846.75
+06/05/2026,Tienda A,Juguetes,María,Muñeca Barbie,3,1296.87,3890.61
+06/06/2026,Tienda A,Electrónica,Luis,Tablet Lenovo,9,676.9,6092.1
+06/07/2026,Tienda E,Deportes,Luis,Cuerda para saltar,8,198.09,1584.72
+06/08/2026,Tienda E,Juguetes,Ana,Auto Hot Wheels,2,620.5,1241
+06/09/2026,Tienda E,Ropa,Pedro,Pantalón Levi's,7,1212.1,8484.7
+06/10/2026,Tienda D,Electrónica,María,Laptop HP,2,1249.73,2499.46
+06/11/2026,Tienda E,Deportes,María,Raqueta Wilson,7,1248.36,8738.52
+06/12/2026,Tienda D,Deportes,Luis,Balón Adidas,10,945.38,9453.8
+6/13/2026,Tienda D,Hogar,Ana,Licuadora Oster,6,1442.78,8656.68
+6/14/2026,Tienda E,Ropa,Pedro,Zapatillas Nike,3,1473.55,4420.65
+6/15/2026,Tienda B,Belleza,Carlos,Plancha de cabello Remington,4,139.83,559.32
+6/16/2026,Tienda D,Electrónica,Lucía,Smartphone Samsung,1,1446.13,1446.13
+6/17/2026,Tienda E,Deportes,María,Bicicleta Trek,9,826.89,7442.01
+6/18/2026,Tienda E,Ropa,Pedro,Zapatillas Nike,5,191.61,958.05
+6/19/2026,Tienda A,Hogar,José,Plancha Philips,5,1164.13,5820.65
+6/20/2026,Tienda D,Juguetes,Luis,Drone para niños,3,320.64,961.92
+6/21/2026,Tienda B,Hogar,Pedro,Licuadora Oster,4,984.64,3938.56
+6/22/2026,Tienda C,Juguetes,Pedro,Drone para niños,2,200.95,401.9
+6/23/2026,Tienda A,Belleza,Luis,Secadora Philips,1,157.57,157.57
+6/24/2026,Tienda B,Hogar,Lucía,Cafetera Delonghi,9,376.64,3389.76
+6/25/2026,Tienda A,Deportes,María,Raqueta Wilson,8,744.61,5956.88
+6/26/2026,Tienda A,Electrónica,José,Auriculares Sony,4,675.25,2701
+6/27/2026,Tienda C,Juguetes,Ana,Drone para niños,9,1131.6,10184.4
+6/28/2026,Tienda D,Ropa,Pedro,Zapatillas Nike,3,237.33,711.99
+6/29/2026,Tienda D,Ropa,Pedro,Polo Adidas,2,801.93,1603.86
+6/30/2026,Tienda E,Juguetes,Carlos,Muñeca Barbie,7,886.14,6202.98
+07/01/2026,Tienda A,Hogar,Ana,Microondas LG,9,1496.71,13470.39
+07/02/2026,Tienda E,Juguetes,Pedro,Puzzle 1000 piezas,8,1312.58,10500.64
+07/03/2026,Tienda A,Belleza,María,Crema Nivea,9,66.67,600.03
+07/04/2026,Tienda C,Ropa,Rosa,Camisa Lacoste,5,41.8,209
+07/05/2026,Tienda D,Hogar,Pedro,Microondas LG,5,461.91,2309.55
+07/06/2026,Tienda A,Ropa,Lucía,Pantalón Levi's,5,951.61,4758.05
+07/07/2026,Tienda E,Electrónica,Lucía,Smartphone Samsung,6,1232.61,7395.66
+07/08/2026,Tienda C,Ropa,Pedro,Casaca Puma,5,780.75,3903.75
+07/09/2026,Tienda A,Juguetes,Lucía,Puzzle 1000 piezas,5,741.27,3706.35
+07/10/2026,Tienda C,Ropa,Pedro,Zapatillas Nike,1,1485.35,1485.35
+07/11/2026,Tienda C,Juguetes,Rosa,Auto Hot Wheels,3,1081.54,3244.62
+07/12/2026,Tienda E,Hogar,Rosa,Cafetera Delonghi,2,791.51,1583.02
+7/13/2026,Tienda E,Deportes,Lucía,Bicicleta Trek,5,836.01,4180.05
+7/14/2026,Tienda D,Deportes,Luis,Balón Adidas,9,717.73,6459.57
+7/15/2026,Tienda D,Belleza,María,Maquillaje Maybelline,7,1426.46,9985.22
+7/16/2026,Tienda A,Electrónica,Carlos,Auriculares Sony,2,1499.62,2999.24
+7/17/2026,Tienda C,Juguetes,Ana,Auto Hot Wheels,3,154.89,464.67
+7/18/2026,Tienda E,Electrónica,Carlos,Smartwatch Apple,4,1409.34,5637.36
+7/19/2026,Tienda D,Electrónica,María,Auriculares Sony,8,1146.41,9171.28
+7/20/2026,Tienda D,Hogar,Rosa,Licuadora Oster,8,298.57,2388.56
+7/21/2026,Tienda D,Belleza,Luis,Maquillaje Maybelline,6,1244.38,7466.28
+7/22/2026,Tienda B,Juguetes,Lucía,Muñeca Barbie,1,423.89,423.89
+7/23/2026,Tienda B,Ropa,Pedro,Casaca Puma,9,708.63,6377.67
+7/24/2026,Tienda D,Electrónica,José,Laptop HP,6,356.97,2141.82
+7/25/2026,Tienda B,Juguetes,Luis,Puzzle 1000 piezas,5,1254.18,6270.9
+7/26/2026,Tienda B,Ropa,José,Pantalón Levi's,10,910.46,9104.6
+7/27/2026,Tienda B,Electrónica,Lucía,Tablet Lenovo,3,89.2,267.6
+7/28/2026,Tienda D,Electrónica,Lucía,Smartphone Samsung,1,784.12,784.12
+7/29/2026,Tienda B,Ropa,María,Pantalón Levi's,10,993.99,9939.9
+7/30/2026,Tienda A,Ropa,Carlos,Camisa Lacoste,5,1144.18,5720.9
+7/31/2026,Tienda C,Ropa,Rosa,Zapatillas Nike,3,59.73,179.19
+08/01/2026,Tienda D,Electrónica,Lucía,Smartphone Samsung,4,1004.96,4019.84
+08/02/2026,Tienda A,Deportes,Rosa,Raqueta Wilson,8,1171.26,9370.08
+08/03/2026,Tienda B,Belleza,Luis,Plancha de cabello Remington,9,198.88,1789.92
+08/04/2026,Tienda D,Hogar,María,Cafetera Delonghi,7,1445.49,10118.43
+08/05/2026,Tienda C,Juguetes,Pedro,Drone para niños,3,1358.17,4074.51
+08/06/2026,Tienda A,Ropa,Lucía,Pantalón Levi's,6,1155.12,6930.72
+08/07/2026,Tienda D,Hogar,Luis,Licuadora Oster,6,258.88,1553.28
+08/08/2026,Tienda D,Deportes,Luis,Guantes Everlast,3,703.91,2111.73
+08/09/2026,Tienda C,Juguetes,Luis,Auto Hot Wheels,6,740.1,4440.6
+08/10/2026,Tienda D,Hogar,Carlos,Cafetera Delonghi,6,133.55,801.3
+08/11/2026,Tienda E,Belleza,María,Maquillaje Maybelline,4,557.94,2231.76
+08/12/2026,Tienda E,Belleza,José,Maquillaje Maybelline,7,714.73,5003.11
+8/13/2026,Tienda A,Electrónica,María,Smartphone Samsung,3,167.52,502.56
+8/14/2026,Tienda A,Ropa,Ana,Zapatillas Nike,8,1167.16,9337.28
+8/15/2026,Tienda A,Juguetes,Lucía,Drone para niños,4,1063.99,4255.96
+8/16/2026,Tienda C,Juguetes,María,Muñeca Barbie,6,1075.54,6453.24
+8/17/2026,Tienda B,Hogar,Pedro,Cafetera Delonghi,8,923.37,7386.96
+8/18/2026,Tienda E,Belleza,Rosa,Crema Nivea,8,475.1,3800.8
+8/19/2026,Tienda B,Belleza,Luis,Maquillaje Maybelline,6,1303.92,7823.52
+8/20/2026,Tienda D,Hogar,Carlos,Ventilador Imaco,8,377.52,3020.16
+8/21/2026,Tienda C,Belleza,José,Perfume Dior,7,441.72,3092.04
+8/22/2026,Tienda E,Belleza,Luis,Perfume Dior,6,427.5,2565
+8/23/2026,Tienda C,Juguetes,José,Auto Hot Wheels,10,246.03,2460.3
+8/24/2026,Tienda A,Deportes,Lucía,Balón Adidas,2,843.75,1687.5
+8/25/2026,Tienda B,Juguetes,Carlos,Puzzle 1000 piezas,2,582.33,1164.66
+8/26/2026,Tienda D,Hogar,María,Plancha Philips,10,1086.06,10860.6
+8/27/2026,Tienda D,Hogar,Ana,Cafetera Delonghi,10,314.53,3145.3
+8/28/2026,Tienda A,Electrónica,Luis,Auriculares Sony,5,211.01,1055.05
+8/29/2026,Tienda E,Deportes,Pedro,Guantes Everlast,10,812.79,8127.9
+8/30/2026,Tienda D,Hogar,Pedro,Ventilador Imaco,1,908.59,908.59
+8/31/2026,Tienda D,Ropa,María,Polo Adidas,6,403.88,2423.28
+09/01/2026,Tienda E,Deportes,José,Bicicleta Trek,9,278.41,2505.69
+09/02/2026,Tienda B,Belleza,Carlos,Crema Nivea,1,26.69,26.69
+09/03/2026,Tienda B,Ropa,Rosa,Pantalón Levi's,5,459.1,2295.5
+09/04/2026,Tienda D,Deportes,Ana,Bicicleta Trek,1,953.89,953.89
+09/05/2026,Tienda D,Deportes,Luis,Balón Adidas,10,738.82,7388.2
+09/06/2026,Tienda B,Hogar,José,Plancha Philips,10,1494.63,14946.3
+09/07/2026,Tienda D,Belleza,Luis,Plancha de cabello Remington,2,820.7,1641.4
+09/08/2026,Tienda A,Ropa,Ana,Casaca Puma,2,116.7,233.4
+09/09/2026,Tienda B,Deportes,Rosa,Raqueta Wilson,2,77.15,154.3
+09/10/2026,Tienda A,Deportes,Lucía,Balón Adidas,1,1497.69,1497.69
+09/11/2026,Tienda C,Hogar,José,Microondas LG,6,1130.27,6781.62
+09/12/2026,Tienda E,Belleza,José,Crema Nivea,6,1047.11,6282.66
+9/13/2026,Tienda A,Deportes,José,Balón Adidas,10,225.27,2252.7
+9/14/2026,Tienda A,Electrónica,Carlos,Auriculares Sony,1,1162.48,1162.48
+9/15/2026,Tienda A,Electrónica,José,Smartphone Samsung,3,753.7,2261.1
+9/16/2026,Tienda C,Ropa,Ana,Casaca Puma,5,1422.27,7111.35
+9/17/2026,Tienda B,Ropa,Pedro,Zapatillas Nike,4,872.42,3489.68
+9/18/2026,Tienda E,Hogar,Luis,Licuadora Oster,1,118.62,118.62
+9/19/2026,Tienda E,Electrónica,Ana,Laptop HP,1,1457.78,1457.78
+9/20/2026,Tienda B,Juguetes,Pedro,Puzzle 1000 piezas,9,139.05,1251.45
+9/21/2026,Tienda E,Deportes,Carlos,Guantes Everlast,4,1459.93,5839.72
+9/22/2026,Tienda B,Juguetes,José,Muñeca Barbie,7,403.42,2823.94
+9/23/2026,Tienda E,Hogar,Pedro,Plancha Philips,6,744.9,4469.4
+9/24/2026,Tienda B,Juguetes,José,Auto Hot Wheels,5,1019.6,5098
+9/25/2026,Tienda A,Belleza,Pedro,Perfume Dior,9,560.57,5045.13
+9/26/2026,Tienda A,Juguetes,María,Lego Star Wars,4,292.59,1170.36
+9/27/2026,Tienda B,Ropa,Lucía,Zapatillas Nike,1,1378.39,1378.39
+9/28/2026,Tienda B,Electrónica,Ana,Smartwatch Apple,5,777.25,3886.25
+9/29/2026,Tienda B,Ropa,Carlos,Camisa Lacoste,5,301.14,1505.7
+9/30/2026,Tienda A,Belleza,Lucía,Perfume Dior,4,481.84,1927.36
+10/01/2026,Tienda D,Belleza,Pedro,Maquillaje Maybelline,6,1156.12,6936.72
+10/02/2026,Tienda E,Belleza,José,Perfume Dior,1,1304.03,1304.03
+10/03/2026,Tienda B,Hogar,Luis,Cafetera Delonghi,8,148.93,1191.44
+10/04/2026,Tienda E,Hogar,José,Ventilador Imaco,2,1263,2526
+10/05/2026,Tienda B,Deportes,Carlos,Balón Adidas,8,369.92,2959.36
+10/06/2026,Tienda D,Ropa,Luis,Polo Adidas,1,936.18,936.18
+10/07/2026,Tienda D,Electrónica,Carlos,Laptop HP,4,1462.34,5849.36
+10/08/2026,Tienda C,Hogar,José,Plancha Philips,8,1428.76,11430.08
+10/09/2026,Tienda A,Ropa,Luis,Zapatillas Nike,7,26.81,187.67
+10/10/2026,Tienda A,Hogar,Lucía,Ventilador Imaco,6,135.47,812.82
+10/11/2026,Tienda A,Juguetes,Lucía,Auto Hot Wheels,2,35.22,70.44
+10/12/2026,Tienda C,Juguetes,José,Puzzle 1000 piezas,5,1340.6,6703
+10/13/2026,Tienda D,Deportes,José,Cuerda para saltar,4,1134.7,4538.8
+10/14/2026,Tienda C,Electrónica,Luis,Tablet Lenovo,3,197.93,593.79
+10/15/2026,Tienda E,Deportes,Carlos,Guantes Everlast,1,985.28,985.28
+10/16/2026,Tienda A,Electrónica,María,Tablet Lenovo,10,184.06,1840.6
+10/17/2026,Tienda C,Ropa,José,Camisa Lacoste,4,376.53,1506.12
+10/18/2026,Tienda C,Deportes,Lucía,Bicicleta Trek,5,965.35,4826.75
+10/19/2026,Tienda E,Juguetes,María,Puzzle 1000 piezas,3,953.35,2860.05
+10/20/2026,Tienda A,Electrónica,José,Laptop HP,10,946.62,9466.2
+10/21/2026,Tienda B,Juguetes,Carlos,Puzzle 1000 piezas,8,1498.02,11984.16
+10/22/2026,Tienda C,Juguetes,Ana,Drone para niños,9,884.23,7958.07
+10/23/2026,Tienda A,Juguetes,Lucía,Drone para niños,3,681.19,2043.57
+10/24/2026,Tienda D,Juguetes,María,Lego Star Wars,2,865.68,1731.36
+10/25/2026,Tienda D,Hogar,Pedro,Licuadora Oster,5,855.02,4275.1
+10/26/2026,Tienda C,Ropa,José,Casaca Puma,9,1466.86,13201.74
+10/27/2026,Tienda D,Hogar,Lucía,Ventilador Imaco,4,331.14,1324.56
+10/28/2026,Tienda D,Juguetes,Rosa,Muñeca Barbie,10,1463.98,14639.8
+10/29/2026,Tienda D,Electrónica,Rosa,Laptop HP,3,60.32,180.96
+10/30/2026,Tienda B,Electrónica,Carlos,Smartphone Samsung,2,929.4,1858.8
+10/31/2026,Tienda B,Deportes,Lucía,Cuerda para saltar,6,165.13,990.78
+11/01/2026,Tienda D,Hogar,Lucía,Cafetera Delonghi,8,508.6,4068.8
+11/02/2026,Tienda C,Belleza,José,Maquillaje Maybelline,3,387.97,1163.91
+11/03/2026,Tienda B,Belleza,Ana,Crema Nivea,2,630.07,1260.14
+11/04/2026,Tienda B,Hogar,Carlos,Microondas LG,2,1022.56,2045.12
+11/05/2026,Tienda B,Juguetes,Carlos,Puzzle 1000 piezas,10,1250.34,12503.4
+11/06/2026,Tienda E,Hogar,Luis,Cafetera Delonghi,1,478.67,478.67
+11/07/2026,Tienda A,Hogar,María,Microondas LG,10,827.61,8276.1
+11/08/2026,Tienda E,Deportes,José,Balón Adidas,8,879.9,7039.2
+11/09/2026,Tienda E,Belleza,Lucía,Perfume Dior,3,1145.06,3435.18
+11/10/2026,Tienda D,Hogar,José,Cafetera Delonghi,5,1231.25,6156.25
+11/11/2026,Tienda C,Electrónica,Luis,Smartphone Samsung,6,1214.61,7287.66
+11/12/2026,Tienda A,Juguetes,Pedro,Muñeca Barbie,1,1285.77,1285.77
+11/13/2026,Tienda C,Ropa,María,Polo Adidas,1,1104.24,1104.24
+11/14/2026,Tienda C,Hogar,Ana,Cafetera Delonghi,9,1205.36,10848.24
+11/15/2026,Tienda C,Belleza,Luis,Secadora Philips,7,1191.91,8343.37
+11/16/2026,Tienda A,Hogar,Rosa,Licuadora Oster,2,123.42,246.84
+11/17/2026,Tienda E,Electrónica,Luis,Laptop HP,1,545.12,545.12
+11/18/2026,Tienda B,Ropa,José,Zapatillas Nike,2,864.25,1728.5
+11/19/2026,Tienda A,Hogar,Rosa,Microondas LG,5,976.56,4882.8
+11/20/2026,Tienda B,Hogar,José,Microondas LG,5,247.42,1237.1
+11/21/2026,Tienda E,Deportes,Carlos,Bicicleta Trek,5,545.58,2727.9
+11/22/2026,Tienda C,Juguetes,Lucía,Puzzle 1000 piezas,2,1179.52,2359.04
+11/23/2026,Tienda B,Belleza,Carlos,Secadora Philips,4,548.73,2194.92
+11/24/2026,Tienda B,Belleza,Ana,Secadora Philips,4,233.36,933.44
+11/25/2026,Tienda D,Juguetes,Lucía,Lego Star Wars,4,270.75,1083
+11/26/2026,Tienda A,Hogar,Lucía,Plancha Philips,2,1177.72,2355.44
+11/27/2026,Tienda A,Hogar,Rosa,Microondas LG,9,596.1,5364.9
+11/28/2026,Tienda D,Belleza,Luis,Plancha de cabello Remington,4,1278.07,5112.28
+11/29/2026,Tienda C,Electrónica,Pedro,Smartphone Samsung,3,1252.89,3758.67
+11/30/2026,Tienda A,Ropa,María,Casaca Puma,9,1258.04,11322.36
+12/01/2026,Tienda B,Ropa,Ana,Camisa Lacoste,9,654.14,5887.26
+12/02/2026,Tienda C,Hogar,Carlos,Plancha Philips,1,132.13,132.13
+12/03/2026,Tienda B,Hogar,Carlos,Licuadora Oster,6,792.45,4754.7
+12/04/2026,Tienda E,Electrónica,Lucía,Tablet Lenovo,4,192.4,769.6
+12/05/2026,Tienda D,Electrónica,Rosa,Laptop HP,6,1408.96,8453.76
+12/06/2026,Tienda D,Hogar,Lucía,Cafetera Delonghi,6,76.21,457.26
+12/07/2026,Tienda E,Ropa,Luis,Camisa Lacoste,6,78.05,468.3
+12/08/2026,Tienda A,Belleza,María,Perfume Dior,9,733.29,6599.61
+12/09/2026,Tienda E,Ropa,María,Pantalón Levi's,3,370.22,1110.66
+12/10/2026,Tienda E,Juguetes,Lucía,Drone para niños,5,1138.74,5693.7
+12/11/2026,Tienda D,Hogar,Lucía,Cafetera Delonghi,10,451.71,4517.1
+12/12/2026,Tienda D,Hogar,José,Ventilador Imaco,1,1008.48,1008.48
+12/13/2026,Tienda B,Electrónica,Pedro,Smartphone Samsung,10,1485.84,14858.4
+12/14/2026,Tienda E,Hogar,José,Licuadora Oster,6,584.73,3508.38
+12/15/2026,Tienda B,Hogar,María,Ventilador Imaco,1,860.65,860.65
+12/16/2026,Tienda B,Ropa,María,Zapatillas Nike,9,419.77,3777.93
+12/17/2026,Tienda B,Electrónica,Luis,Smartwatch Apple,2,191.06,382.12
+12/18/2026,Tienda A,Juguetes,Ana,Muñeca Barbie,6,1334.74,8008.44
+12/19/2026,Tienda A,Juguetes,Ana,Auto Hot Wheels,2,1270.39,2540.78
+12/20/2026,Tienda A,Juguetes,Rosa,Auto Hot Wheels,8,888.94,7111.52
+12/21/2026,Tienda B,Deportes,María,Guantes Everlast,1,214.54,214.54
+12/22/2026,Tienda E,Belleza,Pedro,Crema Nivea,4,1491.33,5965.32
+12/23/2026,Tienda E,Deportes,Carlos,Raqueta Wilson,1,592.58,592.58
+12/24/2026,Tienda A,Deportes,Rosa,Balón Adidas,10,185.59,1855.9
+12/25/2026,Tienda A,Ropa,José,Camisa Lacoste,10,509.65,5096.5
+12/26/2026,Tienda A,Hogar,Carlos,Ventilador Imaco,7,785.79,5500.53
+12/27/2026,Tienda B,Hogar,Luis,Microondas LG,4,742.64,2970.56
+12/28/2026,Tienda E,Deportes,María,Cuerda para saltar,5,1057.86,5289.3
+12/29/2026,Tienda A,Hogar,Luis,Licuadora Oster,9,912.15,8209.35
+12/30/2026,Tienda B,Electrónica,Lucía,Laptop HP,9,337.82,3040.38
+12/31/2026,Tienda A,Electrónica,Ana,Smartwatch Apple,6,233.94,1403.64
+01/01/2027,Tienda C,Electrónica,José,Smartwatch Apple,5,60.89,304.45
+01/02/2027,Tienda B,Ropa,Carlos,Casaca Puma,3,668.76,2006.28
+01/03/2027,Tienda D,Electrónica,Rosa,Smartwatch Apple,2,1350.53,2701.06
+01/04/2027,Tienda B,Electrónica,María,Smartphone Samsung,3,91.91,275.73
+01/05/2027,Tienda A,Ropa,Lucía,Pantalón Levi's,9,1087.25,9785.25
+01/06/2027,Tienda E,Ropa,Lucía,Pantalón Levi's,8,404.02,3232.16
+01/07/2027,Tienda A,Hogar,José,Ventilador Imaco,3,1189.5,3568.5
+01/08/2027,Tienda C,Ropa,Pedro,Casaca Puma,6,1112.4,6674.4
+01/09/2027,Tienda A,Juguetes,Carlos,Drone para niños,5,192.14,960.7
+01/10/2027,Tienda D,Electrónica,Ana,Smartwatch Apple,8,1024.95,8199.6
+01/11/2027,Tienda A,Juguetes,Carlos,Puzzle 1000 piezas,3,642.04,1926.12
+01/12/2027,Tienda B,Hogar,Ana,Cafetera Delonghi,7,219.03,1533.21
+1/13/2027,Tienda D,Belleza,Lucía,Plancha de cabello Remington,3,318.21,954.63
+1/14/2027,Tienda D,Deportes,José,Guantes Everlast,6,55.45,332.7
+1/15/2027,Tienda C,Ropa,Luis,Casaca Puma,9,163.55,1471.95
+1/16/2027,Tienda E,Ropa,Luis,Pantalón Levi's,10,531.83,5318.3
+1/17/2027,Tienda C,Electrónica,Luis,Tablet Lenovo,6,566.86,3401.16
+1/18/2027,Tienda B,Deportes,Rosa,Guantes Everlast,1,699.53,699.53
+1/19/2027,Tienda C,Belleza,Lucía,Perfume Dior,6,408.58,2451.48
+1/20/2027,Tienda B,Hogar,Ana,Microondas LG,7,730.9,5116.3
+1/21/2027,Tienda C,Deportes,Rosa,Balón Adidas,1,675.93,675.93
+1/22/2027,Tienda D,Ropa,Lucía,Camisa Lacoste,7,1144.09,8008.63
+1/23/2027,Tienda B,Deportes,José,Cuerda para saltar,8,1350.53,10804.24
+1/24/2027,Tienda E,Ropa,Carlos,Polo Adidas,4,1427.44,5709.76
+1/25/2027,Tienda C,Ropa,Luis,Casaca Puma,1,994.86,994.86
+1/26/2027,Tienda A,Hogar,Carlos,Microondas LG,9,213.57,1922.13
+1/27/2027,Tienda A,Deportes,Rosa,Guantes Everlast,7,478.07,3346.49
+1/28/2027,Tienda B,Electrónica,Luis,Tablet Lenovo,7,337.32,2361.24
+1/29/2027,Tienda B,Juguetes,José,Auto Hot Wheels,1,1326.12,1326.12
+1/30/2027,Tienda D,Belleza,Ana,Maquillaje Maybelline,10,234.43,2344.3
+1/31/2027,Tienda D,Deportes,Lucía,Cuerda para saltar,5,225.29,1126.45
+02/01/2027,Tienda E,Electrónica,Lucía,Tablet Lenovo,5,1294.77,6473.85
+02/02/2027,Tienda A,Juguetes,Lucía,Drone para niños,9,20.37,183.33
+02/03/2027,Tienda A,Juguetes,Lucía,Drone para niños,7,1060.49,7423.43
+02/04/2027,Tienda D,Belleza,Rosa,Crema Nivea,9,82.26,740.34
+02/05/2027,Tienda D,Ropa,María,Casaca Puma,8,922.57,7380.56
+02/06/2027,Tienda D,Belleza,María,Maquillaje Maybelline,1,106.27,106.27
+02/07/2027,Tienda C,Belleza,Carlos,Perfume Dior,1,810.79,810.79
+02/08/2027,Tienda D,Juguetes,María,Muñeca Barbie,10,496.75,4967.5
+02/09/2027,Tienda C,Belleza,María,Crema Nivea,4,851.79,3407.16
+02/10/2027,Tienda D,Deportes,Rosa,Balón Adidas,10,545.13,5451.3
+02/11/2027,Tienda A,Juguetes,Pedro,Puzzle 1000 piezas,7,1129.44,7906.08
+02/12/2027,Tienda A,Belleza,Luis,Maquillaje Maybelline,7,240.02,1680.14
+2/13/2027,Tienda A,Electrónica,Luis,Smartphone Samsung,4,1472.53,5890.12
+2/14/2027,Tienda A,Electrónica,Ana,Smartwatch Apple,8,1265.36,10122.88
+2/15/2027,Tienda C,Deportes,José,Cuerda para saltar,4,593.56,2374.24
+2/16/2027,Tienda A,Deportes,Carlos,Raqueta Wilson,1,220.69,220.69
+2/17/2027,Tienda D,Electrónica,Pedro,Auriculares Sony,2,583.39,1166.78
+2/18/2027,Tienda E,Deportes,Carlos,Cuerda para saltar,3,928.89,2786.67
+2/19/2027,Tienda D,Electrónica,Luis,Tablet Lenovo,1,133.48,133.48
+2/20/2027,Tienda A,Belleza,Carlos,Maquillaje Maybelline,1,1080.7,1080.7
+2/21/2027,Tienda C,Ropa,Carlos,Camisa Lacoste,1,173.27,173.27
+2/22/2027,Tienda B,Juguetes,Ana,Auto Hot Wheels,7,42.16,295.12
+2/23/2027,Tienda E,Electrónica,Pedro,Tablet Lenovo,7,1151.58,8061.06
+2/24/2027,Tienda E,Hogar,Lucía,Ventilador Imaco,4,204.8,819.2
+2/25/2027,Tienda C,Belleza,Pedro,Maquillaje Maybelline,3,1048.17,3144.51
+2/26/2027,Tienda E,Belleza,José,Perfume Dior,10,913.17,9131.7
+2/27/2027,Tienda A,Deportes,María,Cuerda para saltar,6,869.89,5219.34
+2/28/2027,Tienda E,Juguetes,Ana,Drone para niños,2,712.28,1424.56
+03/01/2027,Tienda B,Hogar,María,Plancha Philips,9,1484.05,13356.45
+03/02/2027,Tienda B,Hogar,Lucía,Ventilador Imaco,4,1326.83,5307.32
+03/03/2027,Tienda A,Belleza,Lucía,Perfume Dior,8,1150.69,9205.52
+03/04/2027,Tienda A,Ropa,Rosa,Zapatillas Nike,10,507.05,5070.5
+03/05/2027,Tienda E,Deportes,Ana,Raqueta Wilson,6,198.47,1190.82
+03/06/2027,Tienda E,Belleza,María,Maquillaje Maybelline,3,129.84,389.52
+03/07/2027,Tienda A,Belleza,Luis,Crema Nivea,7,360.31,2522.17
+03/08/2027,Tienda A,Belleza,Pedro,Secadora Philips,2,711.75,1423.5
+03/09/2027,Tienda D,Hogar,Lucía,Plancha Philips,10,1268.87,12688.7
+03/10/2027,Tienda E,Electrónica,Luis,Auriculares Sony,6,53.83,322.98
+03/11/2027,Tienda E,Deportes,Pedro,Bicicleta Trek,6,140.23,841.38
+03/12/2027,Tienda A,Juguetes,Carlos,Drone para niños,3,167.82,503.46
+3/13/2027,Tienda B,Juguetes,Rosa,Lego Star Wars,9,235.99,2123.91
+3/14/2027,Tienda D,Belleza,Carlos,Plancha de cabello Remington,2,1189.38,2378.76
+3/15/2027,Tienda C,Juguetes,Luis,Lego Star Wars,1,875.79,875.79
+3/16/2027,Tienda B,Hogar,Luis,Licuadora Oster,8,549.83,4398.64
+3/17/2027,Tienda E,Electrónica,Ana,Auriculares Sony,10,1343.53,13435.3
+3/18/2027,Tienda E,Hogar,Pedro,Cafetera Delonghi,3,447.92,1343.76
+3/19/2027,Tienda D,Hogar,Luis,Plancha Philips,7,362.05,2534.35
+3/20/2027,Tienda E,Belleza,Carlos,Perfume Dior,5,699.92,3499.6
+3/21/2027,Tienda E,Ropa,Rosa,Camisa Lacoste,4,1097.94,4391.76
+3/22/2027,Tienda D,Juguetes,José,Lego Star Wars,5,1459.65,7298.25
+3/23/2027,Tienda D,Hogar,Pedro,Cafetera Delonghi,6,30.59,183.54
+3/24/2027,Tienda D,Belleza,Rosa,Plancha de cabello Remington,9,1215,10935
+3/25/2027,Tienda D,Juguetes,Carlos,Puzzle 1000 piezas,7,1274.01,8918.07
+3/26/2027,Tienda E,Electrónica,Pedro,Laptop HP,3,368.05,1104.15
+3/27/2027,Tienda E,Belleza,Pedro,Plancha de cabello Remington,10,1292.4,12924
+3/28/2027,Tienda E,Electrónica,Ana,Auriculares Sony,8,1198.03,9584.24
+3/29/2027,Tienda C,Ropa,María,Zapatillas Nike,7,1418.05,9926.35
+3/30/2027,Tienda A,Belleza,Carlos,Secadora Philips,6,1406.72,8440.32
+3/31/2027,Tienda C,Belleza,Pedro,Secadora Philips,7,868.16,6077.12
+04/01/2027,Tienda A,Deportes,María,Raqueta Wilson,6,431.23,2587.38
+04/02/2027,Tienda C,Belleza,Rosa,Secadora Philips,8,960.51,7684.08
+04/03/2027,Tienda D,Ropa,María,Pantalón Levi's,3,628.75,1886.25
+04/04/2027,Tienda D,Hogar,Luis,Cafetera Delonghi,8,877.67,7021.36
+04/05/2027,Tienda B,Belleza,Ana,Perfume Dior,8,1150.47,9203.76
+04/06/2027,Tienda E,Juguetes,Pedro,Lego Star Wars,10,89.08,890.8
+04/07/2027,Tienda E,Electrónica,Carlos,Smartphone Samsung,5,1133.77,5668.85
+04/08/2027,Tienda A,Juguetes,Pedro,Muñeca Barbie,10,1120.74,11207.4
+04/09/2027,Tienda A,Electrónica,Carlos,Tablet Lenovo,8,1048.1,8384.8
+04/10/2027,Tienda C,Juguetes,Luis,Muñeca Barbie,8,1273.4,10187.2
+04/11/2027,Tienda B,Ropa,Carlos,Camisa Lacoste,2,1289.11,2578.22
+04/12/2027,Tienda A,Hogar,Rosa,Licuadora Oster,6,55.81,334.86
+4/13/2027,Tienda E,Deportes,María,Bicicleta Trek,3,616.96,1850.88
+4/14/2027,Tienda C,Hogar,Rosa,Licuadora Oster,5,750.33,3751.65
+4/15/2027,Tienda C,Electrónica,Pedro,Smartwatch Apple,6,1069.91,6419.46
+4/16/2027,Tienda A,Ropa,Lucía,Casaca Puma,9,1150.4,10353.6
+4/17/2027,Tienda B,Electrónica,Rosa,Tablet Lenovo,4,444.04,1776.16
+4/18/2027,Tienda C,Ropa,José,Camisa Lacoste,9,417.95,3761.55
+4/19/2027,Tienda E,Electrónica,José,Smartphone Samsung,8,547.96,4383.68
+4/20/2027,Tienda E,Ropa,Lucía,Pantalón Levi's,6,729.6,4377.6
+4/21/2027,Tienda A,Ropa,Rosa,Casaca Puma,4,221.62,886.48
+4/22/2027,Tienda C,Belleza,José,Secadora Philips,3,1322.34,3967.02
+4/23/2027,Tienda B,Ropa,Ana,Polo Adidas,3,341.68,1025.04
+4/24/2027,Tienda D,Ropa,María,Polo Adidas,6,55.71,334.26
+4/25/2027,Tienda D,Electrónica,María,Smartphone Samsung,7,765.96,5361.72
+4/26/2027,Tienda A,Hogar,Luis,Microondas LG,6,318.91,1913.46
+4/27/2027,Tienda B,Hogar,María,Plancha Philips,7,508.8,3561.6
+4/28/2027,Tienda D,Hogar,Luis,Plancha Philips,10,245.84,2458.4
+4/29/2027,Tienda E,Hogar,Carlos,Licuadora Oster,2,361.57,723.14
+4/30/2027,Tienda B,Hogar,Lucía,Microondas LG,1,1251.02,1251.02
+05/01/2027,Tienda E,Deportes,José,Cuerda para saltar,10,695.11,6951.1
+05/02/2027,Tienda C,Deportes,Rosa,Cuerda para saltar,5,808.19,4040.95
+05/03/2027,Tienda B,Deportes,Luis,Cuerda para saltar,8,711.72,5693.76
+05/04/2027,Tienda D,Electrónica,Lucía,Tablet Lenovo,4,347.56,1390.24
+05/05/2027,Tienda C,Belleza,Rosa,Crema Nivea,8,1441.32,11530.56
+05/06/2027,Tienda C,Ropa,Pedro,Zapatillas Nike,2,1411.35,2822.7
+05/07/2027,Tienda D,Ropa,Lucía,Polo Adidas,6,1021.01,6126.06
+05/08/2027,Tienda B,Electrónica,Ana,Smartphone Samsung,7,136.89,958.23
+05/09/2027,Tienda D,Juguetes,María,Puzzle 1000 piezas,10,1044.81,10448.1
+05/10/2027,Tienda E,Ropa,Lucía,Camisa Lacoste,8,82.38,659.04
+05/11/2027,Tienda B,Electrónica,Lucía,Smartwatch Apple,9,1154.35,10389.15
+05/12/2027,Tienda E,Juguetes,José,Drone para niños,10,482.63,4826.3
+5/13/2027,Tienda C,Ropa,María,Zapatillas Nike,4,541.64,2166.56
+5/14/2027,Tienda D,Juguetes,Rosa,Lego Star Wars,3,1388.01,4164.03
+5/15/2027,Tienda D,Ropa,Carlos,Casaca Puma,4,318.24,1272.96

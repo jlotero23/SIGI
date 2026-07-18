@@ -140,18 +140,18 @@ _PURCHASE_KEYWORDS = [
     "comprar", "compra", "pedir", "pedido", "ordenar", "ordene",
     "esta semana", "semana", "reabastecer", "abastecer", "stock",
     "inventario bajo", "que necesito", "qué necesito", "que debo",
-    "qué debo", "surte", "surta", "proveedor",
+    "qué debo", "surte", "surta", "3", "proveedor",
 ]
 _DEMAND_KEYWORDS = [
     "mayor demanda", "más demanda", "mas demanda", "más vend", "mas vend",
     "top", "producto estrella", "más popular", "mas popular", "tendencia",
     "se vende más", "se vende mas", "pronostic", "demanda alta",
-    "mejor desempeño", "mejor desempeno", "más rotación", "mas rotacion",
+    "mejor desempeño", "mejor desempeno","2", "más rotación", "mas rotacion",
 ]
 _SUMMARY_KEYWORDS = [
     "sugerencia", "sugerencias", "recomendacion", "recomendación",
     "recomendaciones", "politica", "política", "abastecimiento",
-    "resumen", "informe", "reporte", "estado", "panorama", "overview",
+    "resumen", "informe", "reporte", "estado", "panorama", "1", "overview",
 ]
 _GREETING_KEYWORDS = [
     "hola", "buenos", "buenas", "ayuda", "help", "menu", "menú",
@@ -267,12 +267,11 @@ def _format_greeting_response() -> str:
     ]
     return (
         f"{random.choice(saludos)}\n\n"
-        "Puedo ayudarte con consultas como:\n"
-        "• _¿Qué productos debo comprar esta semana?_\n"
-        "• _¿Cuáles tendrán mayor demanda?_\n"
-        "• _¿Qué sugerencias de abastecimiento hay?_\n\n"
-        "Escríbeme en lenguaje natural y te responderé con los datos "
-        "más recientes del sistema."
+        "Dime que quieres saber o elige una de las siguientes opciones:\n"
+        " 1. _¿Qué productos debo comprar esta semana?_\n"
+        " 2. _¿Cuáles tendrán mayor demanda?_\n"
+        " 3. _¿Qué sugerencias de abastecimiento hay?_\n\n"
+        "Por el momento solo contamos con las 3 anteriores opciones, pero pronto habrá más consultas disponibles. "
     )
 
 
@@ -285,9 +284,9 @@ def _format_fallback_response() -> str:
     ]
     return (
         f"{random.choice(intros)}\n\n"
-        "• \"¿Qué productos debo comprar esta semana?\"\n"
-        "• \"¿Cuál tendrá mayor demanda?\"\n"
-        "• \"¿Qué sugerencias de abastecimiento hay?\"\n\n"
+        "• \"1. ¿Qué productos debo comprar esta semana?\"\n"
+        "• \"2. ¿Cuál tendrá mayor demanda?\"\n"
+        "• \"3. ¿Qué sugerencias de abastecimiento hay?\"\n\n"
     )
 
 

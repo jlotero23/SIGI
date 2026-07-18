@@ -7,8 +7,6 @@ Modelo elegido: Regresión Lineal (scikit-learn) con features temporales.
 - Los datos son ventas diarias por producto en múltiples tiendas.
 - Para una PoC académica necesitamos algo interpretable, rápido y sin GPU.
 - La regresión lineal con día/semana/mes captura tendencia y estacionalidad básica.
-- Prophet es válido para series largas, pero aquí priorizamos simplicidad y estabilidad
-  en Windows sin dependencias pesadas (cmdstan/prophet).
 - scikit-learn es estándar en cursos de ML y fácil de explicar en una demo.
 """
 

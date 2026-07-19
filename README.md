@@ -1,4 +1,3 @@
-
 ## Arquitectura
 
 ```mermaid
@@ -39,7 +38,7 @@ Dataset → Agente 1 (Pronóstico) → Agente 2 (Reabastecimiento) → Dashboard
 2. **Agente 1**: limpia datos, agrega demanda diaria por producto, entrena modelos y pronostica 14 días.
 3. **Agente 2**: lee pronósticos, aplica política de punto de reorden y genera cantidades sugeridas.
 4. **Dashboard**: visualiza todo y permite ejecutar agentes manualmente.
-5. **WhatsApp**: el Agente 2 responde consultas en lenguaje natural.
+5. **WhatsApp**: el Agente 2 calcula los datos (cantidades, prioridades, fechas) y Gemini los redacta en lenguaje natural para el tendero; si Gemini no está disponible, el sistema cae a un conjunto de respuestas basadas en reglas por palabras clave.
 
 
 ## Tecnologías y justificación
@@ -55,6 +54,7 @@ Dataset → Agente 1 (Pronóstico) → Agente 2 (Reabastecimiento) → Dashboard
 | **Recharts** | Gráficos | Open source, integración simple con React |
 | **whatsapp-web.js** | WhatsApp | 100% gratuito vía WhatsApp Web (QR) |
 | **Node.js** | Bridge WhatsApp | Necesario para la librería de WhatsApp Web |
+| **Gemini API (Flash-Lite)** | Redacción conversacional del bot de WhatsApp | Gratuito, interpreta y comunica resultados ya calculados por el Agente 2 — no hace cálculos numéricos propios |
 
 
 ## Estructura del proyecto
@@ -107,6 +107,8 @@ Editar `.env` para cambiar parámetros de reabastecimiento:
 | `FORECAST_HORIZON_DAYS` | Días a pronosticar | `14` |
 | `LEAD_TIME_DAYS` | Tiempo de entrega (días) | `7` |
 | `SAFETY_FACTOR` | Factor de stock de seguridad | `1.5` |
+| `GEMINI_API_KEY` | Key de Google AI Studio para redacción con IA | (vacío = usa reglas) |
+| `GEMINI_MODEL` | Modelo de Gemini a usar | `gemini-2.5-flash-lite` |
 
 ### Instalar dependencias del Dashboard
 
@@ -263,7 +265,7 @@ REVIEW_PERIOD_DAYS=7       # Periodo de revisión de inventario
 | POST | `/api/dataset/upload` | Subir CSV |
 | GET | `/api/charts/demand` | Datos para gráficos |
 | GET | `/api/recommendations/latest` | Últimas recomendaciones |
-| POST | `/api/whatsapp/query` | Consulta simulada WhatsApp |
+| POST | `/api/whatsapp/query` | Consulta al bot (redactada por Gemini, con fallback a reglas) |
 
 Documentación interactiva: **http://localhost:8000/docs**
 
@@ -277,3 +279,10 @@ Documentación interactiva: **http://localhost:8000/docs**
 
 ---
 
+## Limitaciones conocidas
+
+- El dataset de ejemplo actual (`Dataset/extracted/Productos_vendidos_portienda .csv`) es un dataset genérico de retail/electrodomésticos, no de víveres y abarrotes — pendiente de reemplazar por datos representativos del caso de uso real.
+- El archivo CSV de ejemplo tiene problemas de codificación de caracteres en el origen (tildes y ñ se muestran corruptos); no es un bug del código de carga (que ya intenta UTF-8, Latin-1 y CP1252), sino del propio archivo — requiere re-exportar el dataset en UTF-8 limpio.
+- El bridge de WhatsApp (`whatsapp-web.js`) requiere una sesión activa en un equipo local, vinculada por código QR — no es un servicio desplegado en la nube. Si la máquina se apaga o pierde conexión, el bot deja de responder.
+
+---

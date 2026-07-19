@@ -30,8 +30,9 @@ API_HOST = os.getenv("API_HOST", "0.0.0.0")
 API_PORT = int(os.getenv("API_PORT", "8000"))
 CORS_ORIGINS = os.getenv("CORS_ORIGINS", "http://localhost:5173,http://localhost:3000").split(",")
 
-# WhatsApp (opcional – Groq para respuestas más naturales, plan gratuito)
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+# WhatsApp (opcional – Gemini para respuestas más naturales, plan gratuito)
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash-lite")
 WHATSAPP_BRIDGE_URL = os.getenv("WHATSAPP_BRIDGE_URL", "http://localhost:3001")
 
 # Crear carpetas necesarias

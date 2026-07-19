@@ -25,6 +25,7 @@ from ..database import (
     save_recommendations,
     update_agent_status,
 )
+from ..services.llm_service import get_llm_response
 
 
 def _classify_priority(cantidad: float, avg_daily: float) -> str:
@@ -290,11 +291,47 @@ def _format_fallback_response() -> str:
     )
 
 
+def _build_llm_context(recs: list[dict], forecasts: list[dict]) -> str:
+    """Construye un contexto estructurado con datos del sistema para el LLM."""
+    lines = []
+    lines.append("RECOMENDACIONES ACTIVAS DE ABASTECIMIENTO:")
+    if recs:
+        for r in recs[:10]:
+            lines.append(
+                f"- {r['producto']}: {r['cantidad_sugerida']} uds. "
+                f"(Prioridad: {r['prioridad']}, Fecha: {r['fecha_sugerida']})"
+            )
+    else:
+        lines.append("- Ninguna recomendación activa en este momento")
+
+    lines.append("")
+    lines.append("PRONÓSTICOS DE DEMANDA (Top 5):")
+    if forecasts:
+        fc = pd.DataFrame(forecasts)
+        top = (
+            fc.groupby("producto")["demanda_pronosticada"]
+            .sum()
+            .sort_values(ascending=False)
+            .head(5)
+        )
+        for prod, val in top.items():
+            lines.append(f"- {prod}: {val:.0f} uds.")
+    else:
+        lines.append("- Sin datos de pronóstico disponibles")
+
+    lines.append("")
+    lines.append(f"PARÁMETROS DEL SISTEMA:")
+    lines.append(f"- Lead time: {LEAD_TIME_DAYS} días")
+    lines.append(f"- Periodo de revisión: {REVIEW_PERIOD_DAYS} días")
+    lines.append(f"- Factor de seguridad: {SAFETY_FACTOR}")
+
+    return "\n".join(lines)
+
+
 def answer_whatsapp_query(message: str) -> str:
     """
     Responde consultas en lenguaje natural sobre reabastecimiento.
-    Interpreta distintas formas de preguntar y comunica los datos
-    del sistema con un tono conversacional, sin alterar los valores calculados.
+    Intenta usar LLM para redacción natural; si falla, cae a reglas de keywords.
     """
     msg = message.lower().strip()
     recs = get_latest_recommendations()
@@ -307,6 +344,12 @@ def answer_whatsapp_query(message: str) -> str:
             "(reabastecimiento) desde el dashboard de SIGI Retail. "
             "Cuando estén listos, podré responder tus consultas con datos reales."
         )
+
+    context = _build_llm_context(recs, forecasts)
+    llm_response = get_llm_response(context, message)
+
+    if llm_response:
+        return llm_response
 
     if _matches_intent(msg, _PURCHASE_KEYWORDS):
         return _format_purchase_response(recs)
